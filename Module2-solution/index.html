@@ -1,1 +1,156 @@
+<!Doctype HTML>
+	<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>Our Menu</title>
+	<style>
+	* {
+		box-sizing: border-box;
+	}
+	h1 {
+		text-align:  center;
+		font-family: serif;
+		font-size: 2em;
+		color: black;
+		text-align: center;
+		margin-top: 25px;
+
+	}
+
+	h2 {
+		border: 15px soild black;
+		width:  20%;
+		position: absolute;
+		float: right;
+		top: 0px;
+		right: 0px;
+	}
+	#chicken {
+		margin: 0;
+		background-color: pink;
+		border: black;
+		width: 25%;
+		color: black;
+		font-family: sans-serif;
+		font-weight: bold;
+		text-align: right;
+		float: right;
+
+	}
+
+	#beef {
+		margin: 0;
+		position: absolute;
+		top:  0px;
+		right: 0px;
+		border: 15px soild black;
+		background-color: red;
+		color:  white;
+		width:  25%;
+		font-family: sans-serif;
+		font-weight: bold;
+		text-align: right;
+		float: right;
+	}
+
+	#sushi {
+		margin: 0;
+		position: absolute;
+		top:  0px;
+		right:  0px;
+		border: 15px soild black;
+		background-color: lightyellow;
+		color:  black;
+		width:  25%;
+		font-family: sans-serif;
+		font-weight: bold;
+		text-align: right;
+		float: right;
+	}
+	div {
+		position: relative;
+		float:  left;
+		border: 2px solid black;
+		padding: 15px;
+		margin: 15px;
+		background-color: gray;
+		font-family: sans-serif;
+		color: black;
+		text-align: justify;
+		font-size: 18px;
+		width:  300px;
+
+
+	}
+	
+
+@media (mid-width: 992px) { #chickblock, #beefblock, #sushiblock {
+	float: left;
+	position: relative;
+}
+#chickblock {
+	width: 33%;
+}
+
+#beefblock {
+	width: 33%;
+}
+ #sushiblock {
+ 	width:  33%;
+ }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#chickblock, #beefblock, #sushiblock {
+		position: relative;
+		float: left;
+	}
+	#chickblock {
+		width: 50%;
+	}
+	#beefblock {
+		width: 50%;
+	}
+	#sushiblock {
+		width: 100%;
+	}
+}
+
+@media (mix-width: 767px) {
+	#chickblock, #beefblock, #sushiblock {
+		position: relative;
+		float: left;
+	}
+
+	#chickblock {
+		width: 100%;
+	}
+
+	#beefblock {
+		width: 100%;
+	}
+
+	#sushiblock {
+		width: 100%;
+	}
+}
+</style>
+</head>
+<body>
+	<h1>Our Menu</h1>
+	<div id="chickblock">
+		<h2 id="chicken">Chicken</h2>
+	<p>The roast chicken in the cranberry sauce will be like nothing you have ever tasted. Roast, crispy, delicious and definitely like heaven!
+	</p>
+</div>
+<div id="beefblock">
+	<h2 id="beef">Beef</h2>
+	<p>Delicately sliced steaks grilled outside still smell like woods. You will absolutely enjoy the soft succulent meat that was cooked fresh.</p>
+</div>
+<div id="sushiblock">
+	<h2 id="sushi">Sushi</h2>
+	<p>If you don't have a chance to travel to Japan and explore their cuisine, don't let it put you down! Our restaurant will give you the 100% immersion into the authentic atmosphere, and you will feel it with every bite of our sushi.</p>
+</div>
+</body>
+</html>
 
